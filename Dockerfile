@@ -3,7 +3,7 @@ FROM nornagon/postgres
 ADD initdb.sql /src/
 ADD create_db.sh /src/
 
-USER postgres
+#USER postgres
 
 RUN /src/create_db.sh
 
